@@ -63,7 +63,7 @@ while true; do
 done
 ```
 
-finally chmod +x all the scripts and run this command then exit out of your vps and wait for bugs to pop in your discord channel
+finally install nuclei, assetfinder, httprobe from kali's repositories, chmod +x all the scripts in /usr/bin/ and run this command then exit out of your vps and wait for bugs to pop in your discord channel
 ```
 nohup pwnforever &
 ```
