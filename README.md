@@ -33,7 +33,7 @@ getallscope | shuf | head -n 10 | assetfinder -subs-only > tmpfile
 
 /usr/bin/autopwn
 
-```
+```bash
 #!/bin/bash
 rm probed;
 rm foundvuln.txt;
@@ -56,7 +56,7 @@ sleep 2;
 
 /usr/bin/pwnforever
 
-```
+```bash
 #!/bin/bash
 while true; do 
  autopwn;
