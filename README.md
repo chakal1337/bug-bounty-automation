@@ -19,9 +19,6 @@ for data in datas:
   fullz.append(target["asset_identifier"].replace("*.", ""))
 random.shuffle(fullz)
 print("\n".join(fullz))
-getrandscope
-#!/bin/bash
-getallscope | shuf | head -n 10 | assetfinder -subs-only > tmpfile
 ``` 
 
 /usr/bin/getrandscope
